@@ -4,8 +4,8 @@ const Web3 = require("web3");
 const compiledFactory = require("./build/CampaignFactory.json");
 
 const provider = new HDWalletProvider(
-  "nephew river flight mesh any purpose gadget kind region brick west drift",
-  "https://rinkeby.infura.io/v3/fd97f79d623645da92ce2305472cfcad"
+  'nephew river flight mesh any purpose gadget kind region brick west drift',
+  'https://rinkeby.infura.io/v3/fd97f79d623645da92ce2305472cfcad'
 );
 const web3 = new Web3(provider);
 
