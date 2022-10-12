@@ -5,7 +5,7 @@ const compiledFactory = require("./build/CampaignFactory.json");
 
 const provider = new HDWalletProvider(
   'nephew river flight mesh any purpose gadget kind region brick west drift',
-  'https://rinkeby.infura.io/v3/fd97f79d623645da92ce2305472cfcad'
+  'https://goerli.infura.io/v3/f895d95bd7004029b6824cc368730335'
 );
 const web3 = new Web3(provider);
 
